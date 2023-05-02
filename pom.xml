@@ -7,11 +7,11 @@
     <artifactId>sfg-brewery-bom</artifactId>
     <version>1.0.7</version>
   </parent>
-  <groupId>my.pet.project</groupId>
+
+  <groupId>denver.brewery</groupId>
   <artifactId>my-inventory-service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>my-inventory-service</name>
-  <description>Inventory Service</description>
+  <version>1.0.0</version>
+  <name>inventory-service</name>
 
   <dependencies>
     <dependency>
@@ -26,11 +26,11 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-config</artifactId>
     </dependency>
-    <dependency>
-      <groupId>net.logstash.logback</groupId>
-      <artifactId>logstash-logback-encoder</artifactId>
-      <version>6.3</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>net.logstash.logback</groupId>-->
+<!--      <artifactId>logstash-logback-encoder</artifactId>-->
+<!--      <version>6.3</version>-->
+<!--    </dependency>-->
   </dependencies>
 
 </project>
