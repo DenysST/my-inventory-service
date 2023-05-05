@@ -11,9 +11,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Created by jt on 2019-09-09.
- */
 @Slf4j
 @RequiredArgsConstructor
 @Service
