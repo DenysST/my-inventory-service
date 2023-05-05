@@ -9,9 +9,6 @@ import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by jt on 12/3/19.
- */
 @Slf4j
 @RequiredArgsConstructor
 @Component
